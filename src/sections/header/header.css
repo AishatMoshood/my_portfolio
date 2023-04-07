@@ -44,7 +44,8 @@ header {
 }
 
 .header__socials a {
-    width: 1.8rem;
+    font-size: 1.5rem;
+    width: 2.5rem;
     aspect-ratio: 1/1;
     background: var(--color-light);
     color: var(--color-black);
@@ -62,12 +63,15 @@ header {
 /* Media Query(tablets) */
 @media screen and (max-width: 1024px){
     header {
-        margin-top: 0;
         height: 100vh;
     }
 }
 
 @media screen and (max-width: 600px){
+    header {
+        margin-top: 3rem;
+    }
+
     .header__profile{
         width: 14rem;
         height: 17rem;

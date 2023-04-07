@@ -7,6 +7,7 @@ import Portfolio from "./sections/portfolio/Portfolio";
 import Testimonials from "./sections/testimonials/Testimonials";
 import FAQS from "./sections/faqs/FAQs";
 import Footer from "./sections/footer/Footer";
+import FloatingNav from "./sections/floating-nav/FloatingNav";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <FAQS />
       <Contacts />
       <Footer />
+      <FloatingNav />
     </main>
   )
 }
