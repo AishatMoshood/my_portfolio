@@ -7,4 +7,12 @@
     left: 0;
     backdrop-filter: blur(5px);
     z-index: 99;
+    opacity: 0;
+    animation: animateModal 500ms ease-in forwards;
+}
+
+@keyframes animateModal {
+to {
+    opacity: 1;
+}
 }

@@ -1,12 +1,17 @@
+import Scrollspy from 'react-scrollspy';
+import data from './data';
 import './floating-nav.css';
+import Nav from './Nav';
 
 const FloatingNav = () => {
   return (
-    <div>
-        <section id="floating-nav">
-            <h2>Floating Nav</h2>
-        </section>
-    </div>
+   <ul id='floating__nav'>
+      <Scrollspy offset={-500} className='scrollSpy' items={['header', 'about', 'services', 'portfolio', 'contact']} currentClassName="active">
+          {
+            data.map(item => <Nav key={item.id} item={item}/>)
+          }
+      </Scrollspy>
+   </ul>
   )
 }
 

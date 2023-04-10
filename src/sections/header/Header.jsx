@@ -1,23 +1,29 @@
-import React from 'react';
-import HeaderImage from "../../assets/header.jpg";
+import { useEffect } from 'react';
+import Aos from 'aos';
+import HeaderImage from "../../assets/welcome-img.jpg";
 import data from './data';
+import "aos/dist/aos.css";
 import "./header.css";
 
 const Header = () => {
+  useEffect(() => {
+    Aos.init({duration: 1000})
+  }, [])
+
   return (
    <header id="header">
     <div className="container header__container">
-      <div className="header__profile">
+      <div className="header__profile" data-aos="zoom-in">
         <img src={HeaderImage} alt="Header Portrait" />
       </div>
 
-      <h3>Aishat Moshood</h3>
+      <h3 data-aos="fade-up">Welcome</h3>
 
-      <p>
-        You're a click away from building your dream website or web app. Send me details of your project for a mobile, responsive and highly performing application.
+      <p data-aos="fade-up">
+        You're a click away from building your dream website or web application. Send me details of your project for a responsive and highly performing application.
       </p>
 
-      <div className="header__cta">
+      <div className="header__cta" data-aos="fade-up">
         <a href="#contact" className='btn primary'>Let's talk</a>
         <a href="#portfolio" className='btn light'>My work</a>
       </div>

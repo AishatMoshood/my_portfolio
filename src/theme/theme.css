@@ -8,10 +8,18 @@
     background: #dedede;
     box-shadow: 0 3rem 3rem rgba(0,0,0,0.2);
     padding: 3rem;
+    opacity: 0;
+    animation: animateModal 500ms ease-in forwards;
+}
+
+@keyframes animateModal {
+    to {
+        opacity: 1;
+    }
 }
 
 .card.theme__modal:hover {
-     
+    background: #dedede;
 }
 
 .card.theme__modal small {

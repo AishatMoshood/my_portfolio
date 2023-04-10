@@ -10,10 +10,11 @@ import Image9 from '../../assets/project9.jpg'
 
 const data = [
     {
+     
         id: 1,
-        category: 'uiux',
-        image: Image1,
-        title: "Project Title One (UIUX)",
+        category: 'backend',
+        image: Image8,
+        title: "Project Title Eight (Backend)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
@@ -38,18 +39,18 @@ const data = [
     },
     {
         id: 4,
-        category: 'uiux',
+        category: 'fullstack',
         image: Image4,
-        title: "Project Title Four (UIUX)",
+        title: "Project Title Four (Fullstack)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
     },
     {
         id: 5,
-        category: 'uiux',
+        category: 'fullstack',
         image: Image5,
-        title: "Project Title Five (UIUX)",
+        title: "Project Title Five (Fullstack)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut! ",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'
@@ -74,9 +75,9 @@ const data = [
     },
     {
         id: 8,
-        category: 'backend',
-        image: Image8,
-        title: "Project Title Eight (Backend)",
+        category: 'fullstack',
+        image: Image1,
+        title: "Project Title One (Fullstack)",
         desc: "Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia aut!",
         demo: 'http://egatortutorials.com',
         github: 'https://github.com/egattor'

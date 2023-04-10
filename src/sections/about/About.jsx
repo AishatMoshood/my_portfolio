@@ -1,6 +1,6 @@
 import {HiDownload} from "react-icons/hi";
-import AboutImage from "../../assets/about.jpg";
-import CV from "../../assets/aishat_moshood_cv.pdf";
+import AboutImage from "../../assets/swing-img.jpg";
+import CV from "../../assets/aishat-moshood-cv.pdf";
 import data from "./data";
 import './about.css';
 import Card from "../../components/Card/Card";
@@ -10,13 +10,13 @@ const About = () => {
     <div>
         <section id="about">
           <div className="container about__container">
-            <div className="about__left">
+            <div className="about__left" data-aos="fade-right">
               <div className="about__portrait">
                 <img src={AboutImage} alt="About Image"/>
               </div>
             </div>
 
-            <div className="about__right">
+            <div className="about__right" data-aos="fade-left">
               <h2>About me</h2>
 
               <div className="about__cards">
@@ -32,9 +32,9 @@ const About = () => {
                 }
               </div>
 
-              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sequi voluptatem eius at repellat eos. Inventore dolorum eveniet atque maxime nostrum? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem vel repellat magnam aut accusantium quod consequuntur deleniti nisi aliquid eaque quasi, odit cumque. Sit voluptate natus eveniet illum reiciendis. Ullam.</p>
+              <p>I am a Software Engineer with two years of experience in Software Engineering. I have a passion for Web application development and solving programming related problems, and I love using my skills to build web applications that are scalable and responsive. In my free time, I enjoy surfing the internet and reading books.</p>
 
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quibusdam non recusandae debitis corrupti, ex dicta sapiente, rem, obcaecati quam vitae repudiandae soluta et odio ducimus iste praesentium consequatur! Possimus laudantium repellat porro in adipisci at magni quidem, tenetur optio eligendi, delectus suscipit eveniet eaque maxime ipsum doloribus doloremque pariatur?</p>
+              <p>My skills include Backend, Frontend and Fullstack Development, which I have developed through my work experience and education. I am proficient in Core Java, Spring framework, Javascript, React.js, to name a few. Find below my resume/CV, it details my skills nad experience.</p>
 
               <a href={CV} download className="btn primary">Download CV <HiDownload/> </a>
             </div>
