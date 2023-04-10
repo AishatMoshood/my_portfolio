@@ -3,7 +3,7 @@ import AboutImage from "../../assets/about.jpg";
 import CV from "../../assets/aishat_moshood_cv.pdf";
 import data from "./data";
 import './about.css';
-import Card from "../../components/Card";
+import Card from "../../components/Card/Card";
 
 const About = () => {
   return (

@@ -8,6 +8,14 @@
   box-sizing: border-box;
 }
 
+#shadow-host-companion {
+  padding: 0 !important;
+  margin: 0 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+
 :root {
   --primary-hue: 270;
   --black-lightness: 15%;
@@ -42,6 +50,37 @@
     line-height: 1.6;
     font-size: 0.9rem;
   }
+
+
+  /* Theme change */
+
+main.color-1 {
+  --primary-hue: 270;
+}
+
+main.color-2 {
+  --primary-hue: 110;
+}
+
+main.color-3 {
+  --primary-hue: 240;
+}
+
+main.color-4 {
+  --primary-hue: 325;
+}
+
+main.color-5 {
+  --primary-hue: 0;
+}
+
+main.color-6 {
+  --primary-hue: 55;
+}
+
+main {
+  --color-primary: hsl(var(--primary-hue), 89%, 41%);
+}
 
   /* general container class */
   .container {
