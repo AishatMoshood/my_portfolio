@@ -31,7 +31,21 @@ nav {
 
 .nav__menu a{
     color: white;
-}    
+}   
+
+.nav__menu a:hover{
+    color: white;
+    animation: animateNavLink 500ms ease-out forwards;
+}  
+
+@keyframes animateNavLink {
+    from {
+        font-size: 16px;
+    }
+    to {
+        font-size: 18px;
+    }
+}
 
 #theme__icon {
     background: transparent;

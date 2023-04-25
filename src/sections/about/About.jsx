@@ -34,7 +34,7 @@ const About = () => {
 
               <p>I am a Software Engineer with two years of experience in Software Engineering. I have a passion for Web application development and solving programming related problems, and I love using my skills to build web applications that are scalable and responsive. In my free time, I enjoy surfing the internet and reading books.</p>
 
-              <p>My skills include Backend, Frontend and Fullstack Development, which I have developed through my work experience and education. I am proficient in Core Java, Spring framework, Javascript, React.js, to name a few. Find below my resume/CV, it details my skills nad experience.</p>
+              <p>My skills include Backend, Frontend and Fullstack Development, which I have developed through my work experience and education. I am proficient in Core Java, Spring framework, Javascript, React.js, to name a few. Find below my resume/CV, it details my skills and experience.</p>
 
               <a href={CV} download className="btn primary">Download CV <HiDownload/> </a>
             </div>
